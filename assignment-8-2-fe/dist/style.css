@@ -1,0 +1,86 @@
+body{
+    text-align: center;
+    margin-left: 0%;
+    margin-top: 0%;
+    background-image: url("https://thumbs.dreamstime.com/b/top-view-black-book-mockup-tropical-leaves-decoration-white-table-top-view-black-book-mockup-tropical-193310148.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    font-family: 'Roboto', sans-serif;
+}
+ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+li{
+   padding-left: 10%;
+   margin-top: 5px;
+}
+.fst{
+    padding-left: 15%;
+}
+.menu{
+    background-color: #DFE7DB;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 110px;
+    justify-content: space-around;
+}
+img{
+    border-radius: 50%;
+    height:100px;
+    width:100px;
+}
+.c{
+    text-align: center;
+    width: 250px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 6px;
+}
+.p1,.p2,.p3,.p4{
+    color: white;
+    border-radius: 20px;
+    width:fit-content;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.p1{
+    background-color: #6666ff;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+.p2{
+    background-color: #ffb81c;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+.p3,.p4{
+    background-color: #cc66ff;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+h5{
+    margin-top: 0%;
+    margin-bottom: 0%;
+    font-weight: bold;
+    font-size: medium;
+}
+.des{
+    color: gray;
+}
+p{
+    padding: 0%;
+}

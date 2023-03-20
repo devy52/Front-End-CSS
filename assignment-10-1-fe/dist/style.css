@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color: red;
+    font-family: 'Source Sans Pro';
+}
+.header{
+    background-color: white;
+    padding: 10px 94% 10px 80px;
+    margin: 0;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.header h1,h2{
+    background-color: white;
+    color: red;
+}
+.h2{ margin: 8px 0px 0px 10px;}
+.header .h2,.h{ font-weight: 10%;}
+.main{
+    font-family: 'Raleway', sans-serif;
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-bottom: 10rem;
+}
+.cont{
+    color: white;
+    margin: 20% 0% 0% 10%;
+}
+.cont p{
+    margin-top: 10%;
+    width: 600px;
+    font-size: 120%;
+}
+.cont h1{
+    font-size: 300%;
+    font-weight: bold;
+}
+.i1 img{
+    width: 530px;
+    height: auto;
+    border-radius: 50%;
+    margin-top: 80px;
+}
+.card h2,li{
+    background-color: #571212;
+    color: white;
+}
+ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+li{
+    background-color: #571212;
+    color: #A55252;
+    display: flex;
+    flex-direction: column;
+    padding: 80px 60px 50px 60px;
+    text-align: left;
+    width: 20rem;
+}
+.sp{ 
+    width: 14px;
+}
+#c{ 
+    background-color: #571212;
+    color: #A55252;
+    width: 110%;
+ }
+.card h2{ padding-bottom: 30px;}   
+@media (max-width: 768px) {
+    .main{
+        font-family: 'Raleway', sans-serif;
+        display: grid;
+        grid-template-columns: auto auto;
+        margin-bottom: 10rem;
+        display: flex;
+        flex-direction: column;
+    } 
+}

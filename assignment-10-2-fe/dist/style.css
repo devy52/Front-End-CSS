@@ -1,0 +1,88 @@
+*{
+    font-family: 'Varela Round', sans-serif;
+    margin: 0;
+}
+body{ 
+    margin:0;
+}
+ul{
+    list-style: none;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+}
+.header{
+    background-color: white;
+    padding: 15px 0px 15px 0px;
+    height: auto;
+    width: auto;
+}
+.main{ 
+    background-color: #2ECFC3;
+    height: 30rem;
+    width: auto;
+    text-align: center;
+    color: white;
+}
+.main img{
+    height: 200px;
+    width: 200px;
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+}
+.title{ 
+    color: #2D506C;
+    font-size: 20px;
+    font-weight: 1000;
+}
+.hl{ margin-bottom: 2rem;}
+.desc{
+    font-size: 20px;
+    font-weight: 500;
+}
+span{ margin-top: 5rem;}
+.c1,.c2,.c3{ 
+    text-align: left;
+    padding: 50px 5px 10px 50px;
+}
+.c2 img{ margin: 30px 0px 10px 0px;}
+.foot h2{ color:#2D506C;}
+.foot p{
+    margin: 30px 0px 30px 0px;
+    width: 20rem;
+}
+@media (max-width:768px){
+    body{ margin: 0;}
+    ul{
+        display:grid;
+        grid-template-rows: auto;
+        grid-template-columns: auto auto auto auto;
+    }
+    .title{
+        grid-column: 1/5;
+        text-align: center;
+        font-size: medium;
+    }
+    .li,.li1{ 
+        color: #2ECFC3;
+        font-weight: bold;
+        font-size: small;
+    }
+    .foot{ 
+        display: grid;
+        grid-template-rows: auto auto auto;
+    }
+} 
+@media (min-width: 769px){
+    .li1{ margin-left: 700px;}
+    .foot{ 
+        background-color: white;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        column-gap: 1px;
+    }
+    .li,.li1{ 
+        color: #2ECFC3;
+        padding: 0px 20px 0px 20px;
+        font-weight: bold;
+    }
+}
